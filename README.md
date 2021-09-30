@@ -8,7 +8,23 @@
 
 </h1>
 
-<p align="center" width="150px"> I have just kickstarted my career as a software developer intern after completing my undergraduation in the year 2021. <br>Soon, I would be joining New York University for Masters' of Computer Science program.</p>
+Key skills include:
+
+Promoting and communicating new ideas
+Creating process improvements
+Instituting new technologies
+Writing maintainable cross-browser code
+Estimating time and costs for projects
+Ensuring code is scalable and responsive
+Please consider following highlights
+
+🥇 Developed front-end for 25+ webpages using JQuery, Javascript, HTML, CSS, Bootstrap, SCSS/SASS/LESS,
+
+👍 Built 20+ components in ReactJS, VueJS, Angular, Node, Express
+
+🥊 Built 10+ WordPress Themes and 5+ WordPress Plugin
+
+🛒 Created user-centric e-commerce sits for small business owners using various web technologies including Shopify, WordPress and OpenCart
 
 
 <p align="center">
