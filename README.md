@@ -1,9 +1,9 @@
-<h1 align="center">Professional Developer - GitHub</h1><br>
+<h1 align="center">Senior Web Developer - GitHub</h1><br>
 
 <p align="center" ><img 
- src="https://github.com/Forever78419/Forever78419/blob/main/back.jpg" width="100%"/></p>
+ src="https://blockew.com/wp-content/uploads/2019/10/Full-Stack-Developer-Job.jpg" width="100%"/></p>
 
-❤Lovely Front-End Web Developer❤ with 6-plus years of experience in collaborating with creative and development teams on the execution of ideas and projects.
+❤Lovely Front-End Web Developer❤ with 5-plus years of experience in collaborating with creative and development teams on the execution of ideas and projects.
 
 <table style="border-size:0px">
   <tr >
