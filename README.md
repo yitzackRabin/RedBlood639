@@ -6,8 +6,10 @@
 <p align="center" width="150px"> I have just kickstarted my career as a software developer intern after completing my undergraduation in the year 2021. <br>Soon, I would be joining New York University for Masters' of Computer Science program.</p>
 
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RedBlood639&layout=compact&hide=TSQL&theme=chartreuse-dark"></p>
-<img src="https://github-readme-stats.vercel.app/api?username=RedBlood639&count_private=true&show_icons=true&&theme=chartreuse-dark&include_all_commits=true" width="400"
+<a href="https://github.com/AVS1508">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=RedBlood639&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=RedBlood639&layout=compact&langs_count=8&theme=algolia"/>
+</a>
 
 ### 🛠 &nbsp;Tech Stack
 
