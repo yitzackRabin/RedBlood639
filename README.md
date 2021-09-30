@@ -23,3 +23,10 @@
 
 
 <h2> Connect with me <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="100px"> </h2>
+<br />
+ <p align="center">
+Contact Me :
+eMail - albinorabbithunter@gmail.com,
+Skype - https://join.skype.com/invite/vP3aynmkEKQc,
+</p>
+
