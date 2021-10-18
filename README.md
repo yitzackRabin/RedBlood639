@@ -46,5 +46,8 @@ Contact Me :
 eMail - albinorabbithunter@gmail.com,
 Skype - https://join.skype.com/invite/vP3aynmkEKQc,
 </p>
+<p>
+  Discord - https://discordapp.com/users/892288309982797865/
+</p>
   </div>
 
