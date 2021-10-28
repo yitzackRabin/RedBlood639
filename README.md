@@ -41,13 +41,6 @@ Please consider following highlights
 <div  align="center">
 <h2> Connect with me <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="100px"> </h2>
 <br />
- <p>
-Contact Me :
-eMail - albinorabbithunter@gmail.com,
-Skype - https://join.skype.com/invite/vP3aynmkEKQc,
-</p>
-<p>
-  Discord - https://discordapp.com/users/892288309982797865/
-</p>
+
   </div>
 
