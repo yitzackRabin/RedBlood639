@@ -37,10 +37,3 @@ Please consider following highlights
  
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=RedBlood639&bg_color=000000&color=4fff67&line=4fff67&point=ffffff&area=true&hide_border=true)  </p>
 
-
-<div  align="center">
-<h2> Connect with me <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="100px"> </h2>
-<br />
-
-  </div>
-
