@@ -24,7 +24,7 @@ Please consider following highlights
 
 � Built 10+ WordPress Themes and 5+ WordPress Plugin
 
-� Build Smart Contract and Deploy 
+� Built Smart Contract and Deployed 
 
 � Created user-centric e-commerce sits for small business owners using various web technologies including Shopify, WordPress and OpenCart
 
