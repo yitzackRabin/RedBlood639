@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <title>Haoming Profile</title>
-    <!-- Meta -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,440 +10,768 @@
       content="Haoming is an outstanding software engineer who is passionate about his work. I firmly believe everyone can depend on him to complete their projects!"
     />
     <meta name="author" content="Haoming" />
+
+    <!-- Favicon -->
     <link rel="shortcut icon" href="me.ico" />
 
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic"
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-      rel="stylesheet"
-      type="text/css"
     />
 
-    <!-- FontAwesome JS -->
-    <script defer src="assets/fontawesome/js/all.js"></script>
-
-    <!-- Global CSS -->
+    <!-- Icon Font Stylesheet -->
     <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
       rel="stylesheet"
-      href="assets/plugins/bootstrap/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
     />
 
-    <!-- github calendar css -->
-    <link
-      rel="stylesheet"
-      href="assets/plugins/github-calendar/dist/github-calendar-responsive.css"
-    />
-    <!-- github activity css -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/plugins/github-activity/src/github-activity.css"
-    />
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
 
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
   </head>
 
   <body>
-    <!-- ******HEADER****** -->
-    <header class="header">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col">
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4 sticky-lg-top vh-100">
+          <div
+            class="d-flex flex-column h-100 text-center overflow-auto shadow"
+          >
             <img
-              class="profile-image img-fluid float-start rounded-circle"
-              src="assets/images/profile.png"
-              alt="profile image"
+              class="w-100 img-fluid mb-4"
+              src="img/profile.png"
+              alt="Image"
             />
-            <div class="profile-content">
-              <h1 class="name">Haoming Li</h1>
-              <h2 class="desc">Software Engineer</h2>
-              <ul class="social list-inline">
-                <li class="list-inline-item">
-                  <a href="https://linkedin.com/in/haoming-li-366044223"
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://github.com/RedBlood639">
-                    <i class="fab fa-github-alt"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://discord.com/users/892288309982797865"
-                    ><i class="fab fa-discord"></i
-                  ></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://t.me/username/lhm2951"
-                    ><i class="fab fa-telegram"></i
-                  ></a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://join.skype.com/invite/vP3aynmkEKQc"
-                      ><i class="fab fa-skype"></i
-                    ></a>
-                  </li>
-              </ul>
-            </div>
-            <!--//profile-->
-          </div>
-          <!--//col-->
-          <div class="col-12 col-md-auto">
-            <div class="dark-mode-switch d-flex">
-              <div class="form-check form-switch mx-auto mx-md-0">
-                <input
-                  type="checkbox"
-                  class="form-check-input me-2"
-                  id="darkSwitch"
-                />
-                <label class="custom-control-label" for="darkSwitch"
-                  >Dark Mode</label
-                >
+            <h1 class="text-primary mt-2">Li Haoming</h1>
+            <div class="mb-4" style="height: 22px">
+              <h4 class="typed-text-output d-inline-block text-light"></h4>
+              <div class="typed-text d-none">
+                BlockChain Developer, FullStack Developer, Frontend Developer, Backend Developer,
               </div>
             </div>
-            <!--//dark-mode-switch-->
-            <a
-              class="btn btn-cta-primary"
-              href="https://discord.com/users/892288309982797865"
-              target="_blank"
-              ><i class="fas fa-paper-plane"></i> Contact Me</a
-            >
-          </div>
-          <!--//col-->
-        </div>
-        <!--//row-->
-      </div>
-      <!--//container-->
-    </header>
-    <!--//header-->
 
-    <div class="container sections-wrapper py-5">
-      <div class="row">
-        <div class="primary col-lg-8 col-12">
-          <section class="about section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">About Me</h2>
-              <div class="content">
-                <br>
-                  I am a passionate software engineer who has been programming
-                  since grade school. Using agile methodologies, I am accustomed
-                  to working in a distributed environment with remote clients.
-                  Full-Stack developer with awesome web technical skills,
-                  development from scratch, API integration, modules
-                  implementation, extension, integration with external services,
-                  custom optimization, multi-language and multistory instances.
-                  <br />
-                  *** *** ***
-                  <br />
-                  "I am available to work full-time and to change my
-                  time zone to reach client goals. As well as this, I will
-                  maintain client trust. It is not easy to maintain trust with
-                  clients to everyone, but I will try my best to maintain the
-                  relationship."
+            <div class="d-flex justify-content-center mt-auto mb-3">
+              <a
+                class="btn btn-secondary btn-square mx-1"
+                href="https://linkedin.com/in/haoming-li-366044223"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                class="btn btn-secondary btn-square mx-1"
+                href="https://github.com/RedBlood639"
+                ><i class="fab fa-github-alt"></i
+              ></a>
+              <a
+                class="btn btn-secondary btn-square mx-1"
+                href="https://discord.com/users/892288309982797865"
+                ><i class="fab fa-discord"></i
+              ></a>
+              <a
+                class="btn btn-secondary btn-square mx-1"
+                href="https://t.me/username/lhm2951"
+                ><i class="fab fa-telegram"></i
+              ></a>
+              <a
+                class="btn btn-secondary btn-square mx-1"
+                href="https://join.skype.com/invite/vP3aynmkEKQc"
+                ><i class="fab fa-skype"></i
+              ></a>
+            </div>
+
+            <div class="d-flex align-items-end justify-content-between border-top">
+              <a href="https://discord.com/users/892288309982797865" target="_blank" class="btn w-100 btn-scroll">Contact Me</a>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <!-- About Start -->
+          <section
+            class="py-5 border-bottom wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <h1 class="title pb-3 mb-5">About Me</h1>
+            <p>
+              I am a passionate software engineer who has been programming since
+              grade school. Using agile methodologies, I am accustomed to
+              working in a distributed environment with remote clients.
+              Full-Stack developer with awesome web technical skills,
+              development from scratch, API integration, modules implementation,
+              extension, integration with external services, custom
+              optimization, multi-language and multistory instances.
+              <br />
+              *** *** ***
+              <br />
+              "I am available to work full-time and to change my time zone to
+              reach client goals. As well as this, I will maintain client trust.
+              It is not easy to maintain trust with clients to everyone, but I
+              will try my best to maintain the relationship."
+            </p>
+            <div class="row mb-4">
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Name:</span> Li Haoming
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Birthday:</span> 19 April
+                1994
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Degree:</span> Bachelo
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Experience:</span> 6 Years
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Phone:</span> +381 61 150
+                3020
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Email:</span>
+                albinorabbithunter@gmail.com
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Address:</span> JinZhou,
+                Liaoning, China
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Freelance:</span> Available
+              </div>
+            </div>
+            <div class="row g-4">
+              <div class="col-md-4 col-lg-6 col-xl-4">
+                <div class="d-flex bg-secondary p-4">
+                  <h1
+                    class="flex-shrink-0 display-5 text-primary mb-0"
+                    data-toggle="counter-up"
+                  >
+                    6
+                  </h1>
+                  <div class="ps-3">
+                    <p class="mb-0">Years of</p>
+                    <h5 class="mb-0">Experience</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-6 col-xl-4">
+                <div class="d-flex bg-secondary p-4">
+                  <h1
+                    class="flex-shrink-0 display-5 text-primary mb-0"
+                    data-toggle="counter-up"
+                  >
+                    43
+                  </h1>
+                  <div class="ps-3">
+                    <p class="mb-0">Happy</p>
+                    <h5 class="mb-0">Clients</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-6 col-xl-4">
+                <div class="d-flex bg-secondary p-4">
+                  <h1
+                    class="flex-shrink-0 display-5 text-primary mb-0"
+                    data-toggle="counter-up"
+                  >
+                    54
+                  </h1>
+                  <div class="ps-3">
+                    <p class="mb-0">Complete</p>
+                    <h5 class="mb-0">Projects</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- About End -->
+
+          <!-- Skills Start -->
+          <section
+            class="py-5 border-bottom wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <h1 class="title pb-3 mb-5">Skills</h1>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">HTML & HTML5</p>
+                    <p class="mb-2">100%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">SCSS & Styled Component</p>
+                    <p class="mb-2">100%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Bootstrap</p>
+                    <p class="mb-2">100%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Javascript & Typescript</p>
+                    <p class="mb-2">100%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Reactjs & Nextjs</p>
+                    <p class="mb-2">100%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">React Native</p>
+                    <p class="mb-2">95%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-info"
+                      role="progressbar"
+                      aria-valuenow="95"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Vue & Nuxtjs</p>
+                    <p class="mb-2">90%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-info"
+                      role="progressbar"
+                      aria-valuenow="95"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">AngularJS & Angular</p>
+                    <p class="mb-2">85%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Wordpress</p>
+                    <p class="mb-2">85%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">PHP</p>
+                    <p class="mb-2">90%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-info"
+                      role="progressbar"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Nodejs & Expressjs</p>
+                    <p class="mb-2">100%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Nestjs</p>
+                    <p class="mb-2">87%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      aria-valuenow="87"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">GraphQL & Hasura</p>
+                    <p class="mb-2">100%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Codeigniter</p>
+                    <p class="mb-2">100%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">MySQL & PostgreSQL</p>
+                    <p class="mb-2">98%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-info"
+                      role="progressbar"
+                      aria-valuenow="98"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">MongoDB</p>
+                    <p class="mb-2">100%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Github & GitLab</p>
+                    <p class="mb-2">100%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Trello & Jira</p>
+                    <p class="mb-2">100%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Docker & Kubernetes</p>
+                    <p class="mb-2">84%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      aria-valuenow="84"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">AWS & Azure DevOps</p>
+                    <p class="mb-2">98%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-info"
+                      role="progressbar"
+                      aria-valuenow="98"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Smart Contract</p>
+                    <p class="mb-2">95%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-info"
+                      role="progressbar"
+                      aria-valuenow="95"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                      <p class="mb-2">Cairo</p>
+                      <p class="mb-2">86%</p>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar bg-danger"
+                        role="progressbar"
+                        aria-valuenow="86"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">NFT</p>
+                    <p class="mb-2">90%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-info"
+                      role="progressbar"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Defi & Dapp</p>
+                    <p class="mb-2">85%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Uniswap</p>
+                    <p class="mb-2">90%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-info"
+                      role="progressbar"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                      <p class="mb-2">SkatNet</p>
+                      <p class="mb-2">90%</p>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar bg-info"
+                        role="progressbar"
+                        aria-valuenow="90"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Solana</p>
+                    <p class="mb-2">85%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Web3</p>
+                    <p class="mb-2">98%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-info"
+                      role="progressbar"
+                      aria-valuenow="98"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <p class="mb-2">Remix & HardHat</p>
+                    <p class="mb-2">98%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-info"
+                      role="progressbar"
+                      aria-valuenow="98"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Skills End -->
+
+          <!-- Expericence Start -->
+          <section class="py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <h1 class="title pb-3 mb-5">Expericence</h1>
+            <div class="border-start border-2 border-light pt-2 ps-5">
+              <div class="position-relative mb-4">
+                <span
+                  class="bi bi-arrow-right fs-4 text-light position-absolute"
+                  style="top: -5px; left: -50px"
+                ></span>
+                <h5 class="mb-1">Full-Stack Developer</h5>
+                <p class="mb-2">
+                  JF computer systems Co. Ltd, Beijing, China |
+                  <small>(Sep 2017- Mar 2018)</small>
+                </p>
+                <p>
+                    • Completed 3 contracts with JF computer systems Co. Ltd
+                </br>
+                    • Developed single web page applications and taught other developers to build
+                    such applications.               </br>
+                    • Built from scratch admin platform for managing platform's database entities and
+                    users using React, Node and Mongoose.               </br>
+                    • Implemented complex UI components with React/Typescript and SCSS.               </br>
+                    • Improved the UX by creating several DnD-Based components.               </br>               </br>
                 </p>
               </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </section>
-          <!--//section-->
-
-          <section class="latest section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Latest Projects</h2>
-              <div class="content">
-                <div class="item featured text-center">
-                  <div class="featured-image has-ribbon">
-                    <a
-                      href="https://shoclefgold.com/"
-                      target="_blank"
-                    >
-                      <img
-                        class="img-fluid project-image rounded shadow-sm"
-                        src="assets/images/projects/project-featured.png"
-                        alt="project name"
-                      />
-                    </a>
-                    <div class="ribbon">
-                      <div class="text">New</div>
-                    </div>
-                  </div>
-
-                  <h3 class="title mb-3">
-                    <a
-                    href="https://shoclefgold.com/"
-                      target="_blank"
-                      >Launched - Shoclef Gold</a
-                    >
-                  </h3>
-
-                  <div class="desc text-start">
-                    <p>
-                      ShoclefGold is a global marketplace that offers competitive prices for your everyday products. Available worldwide in more than 150 countries. For these products, I worked in a Frontend position. But I something worked in Full Stack Position for other project in this company. this product was built by using Next.js and GraphQL, MongoDB, Node.js, AWS  so on...
-                    </p>
-                  </div>
-                  <!--//desc-->
-                  <a
-                    class="btn btn-cta-secondary"
-                    href="https://shoclefgold.com/"
-                    target="_blank"
-                    ><i class="fas fa-thumbs-up"></i> Visit Site</a
-                  >
-                </div>
-                <!--//item-->
-                <hr class="divider" />
-                <div class="item row">
-                  <a
-                    class="col-md-4 col-12"
-                    href="https://SplitChek.com"
-                    target="_blank"
-                  >
-                    <img
-                      class="img-fluid project-image rounded shadow-sm"
-                      src="assets/images/projects/project-1.png"
-                      alt="project name"
-                    />
-                  </a>
-                  <div class="desc col-md-8 col-12">
-                    <h3 class="title">
-                      <a
-                        href="https://SplitChek.com"
-                        target="_blank"
-                        >Frontend - SplitChek</a
-                      >
-                    </h3>
-                    <p class="mb-2">
-                        SplitChek is a social gift-giving platform, connecting quality businesses with engaged shoppers who are actively looking to buy high-quality gifts.
-                        <br />
-                        Technologies: Nextjs, GraphQL, Redux, Styled Components, so on...
-                    </p>
-                    <p>
-                      <a
-                        class="more-link"
-                        href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/"
-                        target="_blank"
-                        ><i class="fas fa-external-link-alt"></i>Find Site</a
-                      >
-                    </p>
-                  </div>
-                  <!--//desc-->
-                </div>
-                <!--//item-->
-
-                <div class="item row">
-                  <a
-                    class="col-md-4 col-12"
-                    href="https://kikihair.com.au"
-                    target="_blank"
-                  >
-                    <img
-                      class="img-fluid project-image rounded shadow-sm"
-                      src="assets/images/projects/project-2.png"
-                      alt="project name"
-                    />
-                  </a>
-                  <div class="desc col-md-8 col-12">
-                    <h3 class="title">
-                      <a
-                        href="https://kikihair.com.au"
-                        target="_blank"
-                        >FullStack - Kiki Hair</a
-                      >
-                    </h3>
-                    <p class="mb-2">
-                        Kiki Hair Extensions have been a long time trusted Premium Hair Extensions supplier for over 15 years. We provide a wide range of methods including Ponytails, Clip Ins, Halos, Tape, Weft, Keratin Fringes & Ponys and Haircare products & tools
-                        <br />
-                        Technologies: Shopify, GSAP, so on...
-                    </p>
-                    <p>
-                      <a
-                        class="more-link"
-                        href="https://kikihair.com.au"
-                        target="_blank"
-                        ><i class="fas fa-external-link-alt"></i>Find Site</a
-                      >
-                    </p>
-                  </div>
-                  <!--//desc-->
-                </div>
-                <!--//item-->
-
-                <div class="item row">
-                  <a
-                    class="col-md-4 col-12"
-                    href="https://www.orangetheory.com"
-                    target="_blank"
-                  >
-                    <img
-                      class="img-fluid project-image rounded shadow-sm"
-                      src="assets/images/projects/project-3.png"
-                      alt="project name"
-                    />
-                  </a>
-                  <div class="desc col-md-8 col-12">
-                    <h3 class="title">
-                      <a
-                      href="https://www.orangetheory.com"
-                        target="_blank"
-                        >From Scratch - Orangetheory </a
-                      >
-                    </h3>
-                    <p class="mb-2">
-                        Orangetheory Fitness is a boutique fitness studio franchise based in Boca Raton, Florida. The first studio was established in Fort Lauderdale, Florida in 2010 by founder, Ellen Latham. The classes are one hour long and involve two groups, one on the treadmills and the other group working with weights or on rowers
-                    </p>
-                    <p>
-                      <a
-                        class="more-link"
-                        href="https://www.orangetheory.com"
-                        target="_blank"
-                        ><i class="fas fa-external-link-alt"></i>Find Site</a
-                      >
-                    </p>
-                  </div>
-                  <!--//desc-->
-                </div>
-                <!--//item-->
-
-         
-                <!--//item-->
-                <div class="item row">
-                    <a
-                      class="col-md-4 col-12"
-                      href="https://www.hellofresh.com/"
-                      target="_blank"
-                    >
-                      <img
-                        class="img-fluid project-image rounded shadow-sm"
-                        src="assets/images/projects/project-4.png"
-                        alt="project name"
-                      />
-                    </a>
-                    <div class="desc col-md-8 col-12">
-                      <h3 class="title">
-                        <a
-                        href="https://www.hellofresh.com/"
-                          target="_blank"
-                          >Assistant - hellofresh</a
-                        >
-                      </h3>
-                      <p class="mb-2">
-                          HelloFresh SE is a German publicly traded meal-kit company based in Berlin, Germany. It is the largest meal-kit provider in the United States, and also has operations in Australia, Canada, Denmark, New Zealand, Sweden, and Western Europe
-                      </br>
-                      Technologies: React, Sentry, WebPack,  so on...
-                      </p>
-                      <p>
-                        <a
-                          class="more-link"
-                          href="https://www.hellofresh.com/"
-                          target="_blank"
-                          ><i class="fas fa-external-link-alt"></i>Find Site</a
-                        >
-                      </p>
-                    </div>
-                    <!--//desc-->
-                  </div>
-                <!--//item-->
-              </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </section>
-          <!--//section-->
-
-          <section class="projects section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Other Projects</h2>
-              <div class="content">
-                <div class="item">
-                  <h3 class="title">
-                    <a
-                      href="https://corporation.mojie.tv/"
-                      target="_blank"
-                      >Frontend - Mojie</a
-                    >
-                  </h3>
-                  <p class="summary">
-                        This product was built  With Shoclef Gold by using Nextjs, Google Map, Styled component, Redux, so on.                 
-                  </p>
-                  <p>
-                    <a
-                      class="more-link"
-                      href="https://corporation.mojie.tv/"
-                      target="_blank"
-                      ><i class="fas fa-external-link-alt"></i>Find Site</a
-                    >
-                  </p>
-                </div>
-                <!--//item-->
-                <div class="item">
-                  <h3 class="title">
-                    <a
-                      href="https://madreply.com"
-                      target="_blank"
-                      >FullStack - MadReply</a
-                    >
-                  </h3>
-                  <p class="summary">
-                     This product was built  by using Nextjs, Google APIs, SendGrid, Styled component, Redux, so on.      
-                  </p>
-                  <p>
-                    <a
-                      class="more-link"
-                      href="https://madreply.com"
-                      target="_blank"
-                      ><i class="fas fa-external-link-alt"></i>Find Site</a
-                    >
-                  </p>
-                </div>
-         
-
-                <a class="btn btn-cta-secondary" href="https://github.com/redblood639"
-                  >More on GitHub <i class="fas fa-chevron-right pt-1"></i
-                ></a>
-              </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </section>
-          <!--//section-->
-
-          <section class="experience section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Work Experience</h2>
-              <div class="content">
-                <div class="item">
-                  <h3 class="title">
-                    FullStack Engineer -
-                    <span class="place"><a href="#">Shoclef Corporation Limited</a></span>  </br>
-                    <span class="year">(Dev 2021 - Jan 2022)</span>
-                  </h3>
-                  <br>
-                    • Improved the front-end architecture by reorganizing modules.
-                  </br>
-                    • Built Part for Google Product Feed.          
-                  </br>
-                    • Worked with developers around the world to build software applications.         </br>
-                    • Handled async HTTP request/response using JavaScript, Promise, and Ajax.            </br>
-                    • Create Project Workflow          </br>
+              <div class="position-relative mb-4">
+                <span
+                  class="bi bi-arrow-right fs-4 text-light position-absolute"
+                  style="top: -5px; left: -50px"
+                ></span>
+                <h5 class="mb-1">React Engineer </h5>
+                <p class="mb-2">Coditation Systems, San Francisco, CA, US | <small>(Jun 2018- Sep 2018)</small></p>
+                <p>
+                    • Migrated an AngularJS codebase into React.
                 </br>
-                    Technologies: Reactjs, Nodejs, GraphQL, Google Map, Python, AWS, Github
-                  </p>
-                </div>
-                <div class="item">
-                  <h3 class="title">
-                    Frontend Engineer -
-                    <span class="place"><a href="#">HCL Singapore Pte Ltd</a></span>  </br>
-                    <span class="year">(Oct 2020 - Apr 2021)</span>
-                  </h3>
-                  <br>
+                    • Implemented new features on community platform.              </br>
+                    • Improved the front-end architecture by reorganizing modules           </br>              </br>
+                </p>
+              </div>
+              <div class="position-relative mb-4">
+                <span
+                  class="bi bi-arrow-right fs-4 text-light position-absolute"
+                  style="top: -5px; left: -50px"
+                ></span>
+                <h5 class="mb-1">Front-end Engineer</h5>
+                <p class="mb-2">Adplorer, Paris, France | <small>(Nov 2019 - July 2020)</small></p>
+                <p>
+                    • Led the front-end development of a smart price recommendations platform used
+                    by large retail and eCommerce clients.
+                    </br>
+                    • Worked with developers around the world to build software applications.
+                </br>
+                    • Implemented and managed companies Design System library.
+                </br>
+                    • Profiled critical components, eliminating wasting renders which dramatically
+                    improved performance.
+                </br>
+                    • Simplified the project structure, emphasizing re-usability and scalability
+                </br>          </br>
+                </p>
+              </div>
+              <div class="position-relative mb-4">
+                <span
+                  class="bi bi-arrow-right fs-4 text-light position-absolute"
+                  style="top: -5px; left: -50px"
+                ></span>
+                <h5 class="mb-1">Blockchain Developer</h5>
+                <p class="mb-2">SPOKES DIGITAL | <small>(Aug 2019 – Jun 2020)</small></p>
+                <p>
+                    • Implemented NFT marketplace using Smart Contract, Solidity, React.js, Web3.js
+                    </br>
+                    • Implemented vesting and claiming NFT contracts.
+                </br>
+                    • Implemented new blockchain technologies and completed professional market
+                    research.
+                </br>
+                    • Built and launched Smart Contracts for Genesis NFT, Pode and Marketplace as well
+                    using ERC-721 rather than ERC-1155.
+                </br>
+                    • Built Stacking Rewards contract, so investors earn MONA tokens by stacking NFTs
+                    and LP tokens
+                </br>          </br>
+                </p>
+              </div>
+              <div class="position-relative mb-4">
+                <span
+                  class="bi bi-arrow-right fs-4 text-light position-absolute"
+                  style="top: -5px; left: -50px"
+                ></span>
+                <h5 class="mb-1"> Frontend Engineer</h5>
+                <p class="mb-2">
+                    HCL Singapore Pte Ltd |
+                  <small>(Oct 2020 - Apr 2021)</small>
+                </p>
+                <p>
                     • Developed a widget management app for developers to list on-going project,
                     run test, display bugs, and review comment using JavaScript, React.js, Node.js,
                     and Express.js
@@ -458,733 +785,411 @@
                     • Handled async HTTP request/response using JavaScript, Promise, and Ajax.            </br>
                     • Created project Git workflow, and setup deployment procedure on AWS            </br>
                 </br>
-                    Technologies: Reactjs, Nodejs,Promise, Ajax, AWS, GitHub
-                  </p>
-                </div>
-                <!--//item-->
-                <div class="item">
-                  <h3 class="title">
-                    Front-end Engineer -
-                    <span class="place"><a href="#">Adplorer, Paris, France</a></span>  </br>
-                    <span class="year">(Nov 2019 - July 2020)</span>
-                  </h3>
-                  <p>
-                    • Led the front-end development of a smart price recommendations platform used
-                    by large retail and eCommerce clients.
-                    </br>
-                    • Worked with developers around the world to build software applications.
-                </br>
-                    • Implemented and managed companies Design System library.
-                </br>
-                    • Profiled critical components, eliminating wasting renders which dramatically
-                    improved performance.
-                </br>
-                    • Simplified the project structure, emphasizing re-usability and scalability
-                </br>          </br>
-                Technologies: React, Typescript
-                  </p>
-                </div>
-                <!--//item-->
-
-                <div class="item">
-                  <h3 class="title">
-                    React Engineer -
-                    <span class="place"><a href="#">Coditation Systems, San Francisco, CA, US</a></span>
-                </br>
-                    <span class="year">(Jun 2018- Sep 2018)</span>
-                  </h3>
-                    • Migrated an AngularJS codebase into React.
-                </br>
-                    • Implemented new features on community platform.              </br>
-                    • Improved the front-end architecture by reorganizing modules           </br>              </br>
-                    Technologies: Styled Componenets, Redux, React            
-                  </p>
-                </div>
-
-                <div class="item">
-                    <h3 class="title">
-                        Full-Stack Developer -
-                      <span class="place"><a href="#">JF computer systems Co. Ltd, Beijing, China</a></span>  </br>
-                      <span class="year">(Sep 2017- Mar 2018)</span>
-                    </h3>
-                    • Completed 3 contracts with JF computer systems Co. Ltd
-                </br>
-                    • Developed single web page applications and taught other developers to build
-                    such applications.               </br>
-                    • Built from scratch admin platform for managing platform's database entities and
-                    users using React, Node and Mongoose.               </br>
-                    • Implemented complex UI components with React/Typescript and SCSS.               </br>
-                    • Improved the UX by creating several DnD-Based components.               </br>               </br>
-                    Technologies: MongoDB, Node.js, React, JavaScript, CSS3, HTML5, SQL, Bootstrap         
-                    </p>
-                  </div>
-                <!--//item-->
-              </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </section>
-          <section class="experience section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Education</h2>
-              <div class="content">
-                <div class="item">
-                  <h3 class="title">
-                    Computer Science
-                    <span class="place"><a href="#">Northeastern University, Boston, Massachusetts</a></span>  </br>
-                    <span class="year">(Mar 2012 — Nov 2016)</span>
-                  </h3>
-                    • Followed my passion in a core of prototyping and cloud computing classes.            </br>
-                    • Excelled in user experience and user interfaces.            </br>
-                    • Pursued a Generalist Scholars grant to study software architecture           </br>    
-                <!--//item-->
-              </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </section>
-          <!--//section-->
-          <!--//section-->
-        </div>
-        <!--//primary-->
-        <div class="secondary col-lg-4 col-12">
-          <aside class="info aside section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading sr-only">Basic Information</h2>
-              <div class="content">
-                <ul class="list-unstyled">
-                    <li>
-                        <i class="fas fa-map-marker-alt"></i
-                        ><span class="sr-only">Location:</span>JinZhou, Liaoning,
-                        China
-                      </li>
-                      <li>
-                        <i class="fas fa-envelope"></i
-                        ><span class="sr-only">Email:</span
-                        >albinorabbithunter@gmail.com
-                      </li>
-                    <li>
-                        <i class="fab fa-skype"></i
-                        ><span class="sr-only">Skype:</span>live:.cid.9485569b718cfc9d
-                        
-                      </li>
-                      <li>
-                        <i class="fab fa-discord"></i
-                        ><span class="sr-only">Discord:</span>S.W.E#6255                        
-                      </li>
-
-                      <li>
-                        <i class="fab fa-telegram"></i
-                        ><span class="sr-only">Telegram:</span>@lhm2951                        
-                      </li>
-                      <li>
-                        <i class="fas fa-phone"></i
-                        ><span class="sr-only">Working Phone:</span>+381 61 150 3020                        
-                      </li>
-   
-                </ul>
-              </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </aside>
-          <!--//aside-->
-
-          <aside class="skills aside section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Skills</h2>
-              <div class="content">
-                    Here is my any Skill.
                 </p>
-
-                <div class="skillset">
-                  <div class="item">
-                    <h3 class="level-title">
-                      HTML &amp; HTML5<span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 100%"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-                  <!--//item-->
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      SCSS &amp; Styled Component<span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 100%"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      Javascript &amp; Typescript<span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 100%"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      Reactjs &amp; Nextjs<span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 100%"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      React Native<span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Pro</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 90%"
-                        aria-valuenow="90"
-                        aria-valuemin="0"
-                        aria-valuemax="90"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-                  <div class="item">
-                    <h3 class="level-title">
-                      Vue &amp; Nuxtjs<span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Pro</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 85%"
-                        aria-valuenow="85"
-                        aria-valuemin="0"
-                        aria-valuemax="85"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      AngularJS &amp; Angular<span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Pro</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 85%"
-                        aria-valuenow="85"
-                        aria-valuemin="0"
-                        aria-valuemax="85"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-                  <div class="item">
-                    <h3 class="level-title">
-                      Bootstrap<span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 100%"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      Nodejs &amp; Expressjs<span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 100%"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-                  <div class="item">
-                    <h3 class="level-title">
-                      GraphQL<span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 100%"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-                  <div class="item">
-                    <h3 class="level-title">
-                      Codeigniter<span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 100%"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-                  <div class="item">
-                    <h3 class="level-title">
-                      MySQL &amp; PostgreSQL &amp; MongoDB <span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 100%"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-                  <div class="item">
-                    <h3 class="level-title">
-                      Github &amp; GitLab &amp; Bitbucket <span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 100%"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      Trello &amp; Jira<span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 100%"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      AWS &amp; Azure DevOps<span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Expert</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 98%"
-                        aria-valuenow="98"
-                        aria-valuemin="0"
-                        aria-valuemax="98"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      Docker &amp; Kubernetes<span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Pro</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 84%"
-                        aria-valuenow="84"
-                        aria-valuemin="0"
-                        aria-valuemax="84"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      Web3 &amp; Ether &amp; Solidity <span
-                        class="level-label"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        ><i class="fas fa-info-circle"></i>Pro</span
-                      >
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div
-                        class="progress-bar level-bar-inner"
-                        role="progressbar"
-                        style="width: 89%"
-                        aria-valuenow="89"
-                        aria-valuemin="0"
-                        aria-valuemax="89"
-                      ></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-
-
-                  <p>
-                    <a class="more-link" href="https://github.com/redblood639"
-                      ><i class="fas fa-external-link-alt"></i>More on GitHub</a
-                    >
-                  </p>
-                </div>
               </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </aside>
-          <!--//section-->
-
-          <aside class="testimonials aside section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Testimonials</h2>
-              <div class="content">
-                <div class="item">
-                  <blockquote class="quote">
-                    <p>
-                      <i class="fas fa-quote-left"></i>Haoming is an outstanding software engineer who is passionate about his work. I firmly believe everyone can depend on him to complete their projects!
-                    </p>
-                  </blockquote>
-                  <p class="source">
-                    <span class="name">Michael Buble</span><br /><span class="title"
-                      >JS Team Leader</span
-                    >
-                  </p>
-                </div>
-                <div class="item">
-                    <blockquote class="quote">
-                      <p>
-                        <i class="fas fa-quote-left"></i>Haoming was always cheerful in his business and always displayed high performance in his business, leading not only himself but also his team members.
-                      </p>
-                    </blockquote>
-                    <p class="source">
-                      <span class="name">Herry Lee</span>
-                    </p>
-                  </div>
-                <!--//item-->
-
+              <div class="position-relative mb-4">
+                <span
+                  class="bi bi-arrow-right fs-4 text-light position-absolute"
+                  style="top: -5px; left: -50px"
+                ></span>
+                <h5 class="mb-1">FullStack Engineer</h5>
+                <p class="mb-2">
+                    Shoclef Corporation Limited |
+                  <small>(Dev 2021 - Jan 2022)</small>
+                </p>
                 <p>
-                  <a class="more-link" href="#"
-                    ><i class="fas fa-external-link-alt"></i>More on Linkedin</a
-                  >
+                    • Improved the front-end architecture by reorganizing modules.
+                </br>
+                  • Built Part for Google Product Feed.          
+                </br>
+                  • Worked with developers around the world to build software applications.         </br>
+                  • Handled async HTTP request/response using JavaScript, Promise, and Ajax.            </br>
+                  • Create Project Workflow          </br>
+                </br>
                 </p>
               </div>
-              <!--//content-->
             </div>
-            <!--//section-inner-->
-          </aside>
-          <!--//section-->
+          </section>
+          <!-- Expericence End -->
 
-          <aside class="education aside section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Education</h2>
-              <div class="content">
-                <div class="item">
-                  <h3 class="title">
-                    <i class="fas fa-graduation-cap"></i> BSc Computer Science
-                  </h3>
-                  <h4 class="university">
-                    Northeastern University,<br/> Boston, Massachusetts
-                    <span class="year">(2012-2016)</span>
-                  </h4>
-                </div>
-  
-              </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </aside>
-          <!--//section-->
 
-          <aside class="languages aside section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Languages</h2>
-              <div class="content">
-                <ul class="list-unstyled">
-                           <!--//item-->
-                  <li class="item">
-                    <span class="title"><strong>Chinese:</strong></span>
-                    <span class="level"
-                      >Native Speaker
-                      <br class="visible-sm visible-xs" />       <i
-                      class="fas fa-star"
-                    ></i>
-                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
-                  </li>
-                  <!--//item-->
-                <!--//item-->
-                  <li class="item">
-                    <span class="title"><strong>English:</strong></span>
-                    <span class="level"
-                      >Professional Proficiency<br class="visible-xs" />
-                      <i
-                        class="fas fa-star"
-                      ></i>
-                      <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half"></i
-                    >
-                      
+            <!-- Expericence Start -->
+            <section class="py-5 wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="title pb-3 mb-5">Education</h1>
+                <div class="border-start border-2 border-light pt-2 ps-5">
+                  <div class="position-relative mb-4">
+                    <span
+                      class="bi bi-arrow-right fs-4 text-light position-absolute"
+                      style="top: -5px; left: -50px"
+                    ></span>
+                    <h5 class="mb-1">Computer Science</h5>
+                    <p class="mb-2">
+                        Northeastern University, Boston, Massachusetts |
+                      <small>(Mar 2012 — Nov 2016)</small>
+                    </p>
+                    <p>
+                        • Followed my passion in a core of prototyping and cloud computing classes.
+                    </br>
+                        • Excelled in user experience and user interfaces.
+                    </br>
+                        • Pursued a Generalist Scholars grant to study software architecture
+                    </br>
+                    </p>
+                  </div>
+                  
+             
+             
+       
                
-                    </span>
-                  </li>
-                 <!--//item-->
-                </ul>
+                </div>
+              </section>
+              <!-- Expericence End -->
+
+     
+          <!-- Subscribe End -->
+
+ 
+          <!-- Services End -->
+
+          <!-- Portfolio Start -->
+          <section
+            class="py-5 border-bottom wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <h1 class="title pb-3 mb-5">Portfolio</h1>
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                      <li class="btn btn-secondary active" data-filter="*">
+                        <i class="fa fa-star me-2"></i>All
+                      </li>
+                      <li class="btn btn-secondary" data-filter=".first">
+                        <i class="fa fa-laptop-code me-2"></i>Frontend
+                      </li>
+                      <li class="btn btn-secondary" data-filter=".second">
+                        <i class="fa fa-mobile-alt me-2"></i>Backend
+                      </li>
+                      <li class="btn btn-secondary" data-filter=".third">
+                        <i class="fa fa-mobile-alt me-2"></i>FullStack
+                      </li>
+                      <li class="btn btn-secondary" data-filter=".nft">
+                        <i class="fa fa-mobile-alt me-2"></i>BlockChain
+                      </li>
+                      <li class="btn btn-secondary" data-filter=".assistant">
+                        <i class="fa fa-mobile-alt me-2"></i>Assistant
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row portfolio-container">
+                  <div class="col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                      <img
+                        class="img-fluid w-100"
+                        src="img/portfolio-1.png"
+                        alt=""
+                      />
+                      <div
+                        class="portfolio-btn d-flex align-items-center justify-content-center"
+                      >
+                        <a href="img/portfolio-1.png" data-lightbox="portfolio">
+                          <i class="bi bi-plus text-light"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                      <img
+                        class="img-fluid w-100"
+                        src="img/portfolio-2.png"
+                        alt=""
+                      />
+                      <div
+                        class="portfolio-btn d-flex align-items-center justify-content-center"
+                      >
+                        <a href="img/portfolio-2.png" data-lightbox="portfolio">
+                          <i class="bi bi-plus text-light"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                      <img
+                        class="img-fluid w-100"
+                        src="img/portfolio-3.png"
+                        alt=""
+                      />
+                      <div
+                        class="portfolio-btn d-flex align-items-center justify-content-center"
+                      >
+                        <a href="img/portfolio-3.png" data-lightbox="portfolio">
+                          <i class="bi bi-plus text-light"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                      <img
+                        class="img-fluid w-100"
+                        src="img/portfolio-4.png"
+                        alt=""
+                      />
+                      <div
+                        class="portfolio-btn d-flex align-items-center justify-content-center"
+                      >
+                        <a href="img/portfolio-4.png" data-lightbox="portfolio">
+                          <i class="bi bi-plus text-light"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4 portfolio-item nft">
+                    <div class="position-relative overflow-hidden mb-2">
+                      <img
+                        class="img-fluid w-100"
+                        src="img/portfolio-5.png"
+                        alt=""
+                      />
+                      <div
+                        class="portfolio-btn d-flex align-items-center justify-content-center"
+                      >
+                        <a href="img/portfolio-10.png" data-lightbox="portfolio">
+                          <i class="bi bi-plus text-light"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4 portfolio-item assistant">
+                    <div class="position-relative overflow-hidden mb-2">
+                      <img
+                        class="img-fluid w-100"
+                        src="img/portfolio-10.png"
+                        alt=""
+                      />
+                      <div
+                        class="portfolio-btn d-flex align-items-center justify-content-center"
+                      >
+                        <a href="img/portfolio-5.png" data-lightbox="portfolio">
+                          <i class="bi bi-plus text-light"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4 portfolio-item assistant">
+                    <div class="position-relative overflow-hidden mb-2">
+                      <img
+                        class="img-fluid w-100"
+                        src="img/portfolio-6.png"
+                        alt=""
+                      />
+                      <div
+                        class="portfolio-btn d-flex align-items-center justify-content-center"
+                      >
+                        <a href="img/portfolio-6.png" data-lightbox="portfolio">
+                          <i class="bi bi-plus text-light"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4 portfolio-item assistant">
+                    <div class="position-relative overflow-hidden mb-2">
+                      <img
+                        class="img-fluid w-100"
+                        src="img/portfolio-7.png"
+                        alt=""
+                      />
+                      <div
+                        class="portfolio-btn d-flex align-items-center justify-content-center"
+                      >
+                        <a href="img/portfolio-7.png" data-lightbox="portfolio">
+                          <i class="bi bi-plus text-light"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4 portfolio-item assistant">
+                    <div class="position-relative overflow-hidden mb-2">
+                      <img
+                        class="img-fluid w-100"
+                        src="img/portfolio-8.png"
+                        alt=""
+                      />
+                      <div
+                        class="portfolio-btn d-flex align-items-center justify-content-center"
+                      >
+                        <a href="img/portfolio-8.png" data-lightbox="portfolio">
+                          <i class="bi bi-plus text-light"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4 portfolio-item nft">
+                    <div class="position-relative overflow-hidden mb-2">
+                      <img
+                        class="img-fluid w-100"
+                        src="img/portfolio-11.png"
+                        alt=""
+                      />
+                      <div
+                        class="portfolio-btn d-flex align-items-center justify-content-center"
+                      >
+                        <a href="img/portfolio-11.png" data-lightbox="portfolio">
+                          <i class="bi bi-plus text-light"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                      <img
+                        class="img-fluid w-100"
+                        src="img/portfolio-12.png"
+                        alt=""
+                      />
+                      <div
+                        class="portfolio-btn d-flex align-items-center justify-content-center"
+                      >
+                        <a href="img/portfolio-12.png" data-lightbox="portfolio">
+                          <i class="bi bi-plus text-light"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                      <img
+                        class="img-fluid w-100"
+                        src="img/portfolio-9.png"
+                        alt=""
+                      />
+                      <div
+                        class="portfolio-btn d-flex align-items-center justify-content-center"
+                      >
+                        <a href="img/portfolio-9.png" data-lightbox="portfolio">
+                          <i class="bi bi-plus text-light"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <!--//content-->
             </div>
-            <!--//section-inner-->
-          </aside>
-          <!--//section-->
+          </section>
+          <!-- Portfolio End -->
 
-
-          <aside class="list music aside section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Favourite coding music</h2>
-              <div class="content">
-                <ul class="list-unstyled">
-                    <li>
-                        <i class="fas fa-headphones"></i>
-                        <a href="#">Wǒmen de ài</a>
-                      </li>
-                      <li>
-                        <i class="fas fa-headphones"></i>
-                        <a href="#">Tónghuà</a>
-                      </li>
-                      <li>
-                        <i class="fas fa-headphones"></i>
-                        <a href="#">Tiánmì mì</a>
-                      </li>
-                    <li>
-                        <i class="fas fa-headphones"></i>
-                        <a href="#">Chénmò shì jīn</a>
-                    </li>       
-                </ul>
+          <!-- Testimonial Start -->
+          <section
+            class="py-5 border-bottom wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <h1 class="title pb-3 mb-5">Testimonial</h1>
+            <div class="owl-carousel testimonial-carousel">
+              <div class="text-left">
+                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <p class="fs-4 mb-4">
+                    Haoming is an outstanding software engineer who is passionate about his work. I firmly believe everyone can depend on him to complete their projects!
+                </p>
+                <div class="d-flex align-items-center">
+              
+                  <div class="ps-3">
+                    <p class="text-primary fs-5 mb-1">Client Name</p>
+                    <i>Michael Buble</i>
+                  </div>
+                </div>
               </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </aside>
 
+              <div class="text-left">
+                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <p class="fs-4 mb-4">
+                    Haoming was always cheerful in his business and always displayed high performance in his business, leading not only himself but also his team members.
+                </p>
+                <div class="d-flex align-items-center">
+               
+                  <div class="ps-3">
+                    <p class="text-primary fs-5 mb-1">Client Name</p>
+                    <i>Herry Lee</i>
+                  </div>
+                </div>
+              </div>
+
+      
+            </div>
+          </section>
+          <!-- Testimonial End -->
+
+          <!-- Contact Start -->
+  
+          <!-- Contact End -->
+
+          <!-- Footer Start -->
+          <section class="wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-secondary text-light text-center p-5">
+              <div class="d-flex justify-content-center mb-4">
+                <a
+                class="btn btn-secondary btn-square mx-1"
+                href="https://linkedin.com/in/haoming-li-366044223"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                class="btn btn-secondary btn-square mx-1"
+                href="https://github.com/RedBlood639"
+                ><i class="fab fa-github-alt"></i
+              ></a>
+              <a
+                class="btn btn-secondary btn-square mx-1"
+                href="https://discord.com/users/892288309982797865"
+                ><i class="fab fa-discord"></i
+              ></a>
+              <a
+                class="btn btn-secondary btn-square mx-1"
+                href="https://t.me/username/lhm2951"
+                ><i class="fab fa-telegram"></i
+              ></a>
+              <a
+                class="btn btn-secondary btn-square mx-1"
+                href="https://join.skype.com/invite/vP3aynmkEKQc"
+                ><i class="fab fa-skype"></i
+              ></a>
+              </div>
           
-  
-          <!--//section-->
 
-  
-          <!--//section-->
-
-          <!--//section-->
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+              <p class="m-0">
+                &copy; All Rights Reserved. Designed by
+                <a href="#">Haoming Li</a>
+              </p>
+            </div>
+          </section>
+          <!-- Footer End -->
         </div>
-        <!--//secondary-->
       </div>
-      <!--//row-->
     </div>
-    <!--//masonry-->
 
-    <!-- ******FOOTER****** -->
-    <footer class="footer">
-      <div class="container text-center">
-        <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-        <small class="copyright"
-          >Designed with by Li Haoming
-      </div>
-      <!--//container-->
-    </footer>
-    <!--//footer-->
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-    <!-- Javascript -->
-    <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
-    <script
-      type="text/javascript"
-      src="assets/plugins/bootstrap/js/bootstrap.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/plugins/vanilla-rss/dist/rss.global.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"
-    ></script>
-    <!-- github calendar plugin -->
-    <script
-      type="text/javascript"
-      src="assets/plugins/github-calendar/dist/github-calendar.min.js"
-    ></script>
-    <!-- github activity plugin -->
-    <script
-      type="text/javascript"
-      src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/plugins/github-activity/src/github-activity.js"
-    ></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
   </body>
 </html>
