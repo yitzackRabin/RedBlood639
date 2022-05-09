@@ -1,8 +1,3 @@
-
-<a href="https://www.overleaf.com/read/cjnxndmzzmxq">
-<img src="https://raw.githubusercontent.com/Parply/Parply/master/.github/banner.png" alt="Welcome to  My Github" width="100%"/>
-</a>
-
 <p align="center">
 <a href="#">
 <!--START_SECTION:wordcloud-->
