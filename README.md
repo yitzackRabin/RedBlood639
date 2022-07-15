@@ -4,21 +4,11 @@
 <p align="center">
 <a href="https://app.daily.dev/Redblood639"><img src="https://api.daily.dev/devcards/9f8afbe7957643b0a7c1b11a26e032b0.png?r=s7p" width="400" alt="Senior Blockchain / Full Stack Developer's Dev Card"/></a>
 </p>
-<p align="center">
- 💎 💎 💎 </br>
- Let's coding every day, Learn every time.<br>
- Let's go beyond our limits<br>
-</p>
 
 
-
-<p align="center">
-  <img src="https://github.com/ritik307/ritik307/raw/output/github-contribution-grid-snake.svg" alt="snake"></center>
-</p>
-
-
+  
 
 <hr>
-<img height="120" alt="Thanks for visiting my profile!" width="100%" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" />
+<img alt="Thanks for visiting my profile!" width="100%" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" />
 
 
