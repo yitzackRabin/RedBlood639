@@ -3,7 +3,7 @@
 </p>
 <p align="center">
 <a href="https://app.daily.dev/Redblood639"><img src="https://api.daily.dev/devcards/9f8afbe7957643b0a7c1b11a26e032b0.png?r=s7p" width="400" alt="Senior Blockchain / Full Stack Developer's Dev Card"/></a>
-  <img align="right" height="530px" width="450px" alt="GIF" src="https://media.giphy.com/media/3FjEPbKqEPhPpmC8uY/giphy.gif"/>
+
 
 </p>
 
