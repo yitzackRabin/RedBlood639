@@ -10,6 +10,7 @@
 </h1>
 
 FullStack + 6
+<br />
 BlockChain + 3
 
 Hello, Nice to meet you.
@@ -17,14 +18,6 @@ Hello, Nice to meet you.
 A senior full-stack and blockchain developer who has worked in several blockchain startup companies for over 6 years.
 
 During the period, I got huge experiences in web stacks and blockchain aspect including Javascript & PHP frameworks, Database architecture, Smart contract building and RESTful APIs too.
-
-<p align="center">
-<a href="https://github.com/RedBlood639">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=RedBlood639&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=RedBlood639&layout=compact&langs_count=8&theme=algolia"/>
-</a>
-</p>
-<p align="centre">
 
 My capabilities include the following:
 
