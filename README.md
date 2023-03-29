@@ -44,7 +44,7 @@ My capabilities include the following:
 * Rest API/GraphQL
 
 ### Backend
-* Node/PHP
+* Node/PHP/GoLang
 * Express/Nest
 * MongoDB/MySQL/PostgreSQL
 * Python
